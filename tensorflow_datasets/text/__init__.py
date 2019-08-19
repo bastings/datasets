@@ -27,6 +27,7 @@ from tensorflow_datasets.text.lm1b import Lm1bConfig
 from tensorflow_datasets.text.multi_nli import MultiNLI
 from tensorflow_datasets.text.snli import Snli
 from tensorflow_datasets.text.squad import Squad
+from tensorflow_datasets.text.sst import SST
 from tensorflow_datasets.text.super_glue import SuperGlue
 from tensorflow_datasets.text.trivia_qa import TriviaQA
 from tensorflow_datasets.text.wikipedia import Wikipedia
