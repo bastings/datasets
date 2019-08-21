@@ -87,7 +87,7 @@ class SST(tfds.core.GeneratorBasedBuilder):
             'node_labels': tfds.features.Sequence(
                 tfds.features.ClassLabel(names=_LABELS)),
         }),
-        supervised_keys=None,  # provide both text and transitions
+        supervised_keys=('text', 'label'),
         urls=["https://nlp.stanford.edu/sentiment/index.html"],
         citation=_CITATION,
     )
