@@ -17,7 +17,7 @@ Stanford Online Products Dataset
 *   `DatasetBuilder`:
     [`tfds.image.stanford_online_products.StanfordOnlineProducts`](https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/image/stanford_online_products.py)
 *   Version: `v1.0.0`
-*   Size: `?? GiB`
+*   Size: `2.87 GiB`
 
 ## Features
 
@@ -32,18 +32,20 @@ FeaturesDict({
 
 ## Statistics
 
-None computed
+Split | Examples
+:---- | -------:
+ALL   | 120,053
+TEST  | 60,502
+TRAIN | 59,551
 
 ## Urls
 
 *   [http://cvgl.stanford.edu/projects/lifted_struct/](http://cvgl.stanford.edu/projects/lifted_struct/)
 
 ## Supervised keys (for `as_supervised=True`)
-
 `None`
 
 ## Citation
-
 ```
 @inproceedings{song2016deep,
  author    = {Song, Hyun Oh and Xiang, Yu and Jegelka, Stefanie and Savarese, Silvio},
